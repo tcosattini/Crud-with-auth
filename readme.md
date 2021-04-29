@@ -34,7 +34,14 @@ L'application à ce stade permet de gérer les vols de la journée courante.
 
 # Configuration de l'application
 
+On va passer par les mêmes actions que les projets précédents pour les points suivants :
+
 1. database
+
+```bash
+DATABASE_URL="sqlite:///%kernel.project_dir%/var/dev_airways.db"
+```
+
 2. Les entités Flight et City et leur relation
    > ne pas faire User
 3. Les fixtures
